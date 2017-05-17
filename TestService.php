@@ -7,9 +7,7 @@ require_once __DIR__.'/ApplicationServiceInterface.php';
  * @inheritdoc
  */
 class TestService implements ApplicationServiceInterface {
-	/**
-	 * @var ControllerInterface
-	 */
+	/** @var ControllerInterface */
 	private $controller;
 	
 	/**
